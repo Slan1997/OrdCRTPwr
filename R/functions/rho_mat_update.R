@@ -25,10 +25,10 @@
 #       logit Pr(Y <= j | treat) = gamma_j + beta_treat * treat
 # ============================================================
 
-
-inv_logit <- function(x) {
-  1 / (1 + exp(-x))
-}
+### inv_logit has been defined in ordinal_probabilities.R
+# inv_logit <- function(x, scale=1){
+#   1 / (1 + exp(-x/scale))
+# }
 
 
 rho_mat_update <- function(beta,

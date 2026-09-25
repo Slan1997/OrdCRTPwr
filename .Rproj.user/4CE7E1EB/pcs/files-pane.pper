@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": false
+            "ascending": true
         }
     ],
-    "path": "~/Desktop/disseration materials/github_codes/OrdCRTPwr"
+    "path": "~/Desktop/disseration materials/github_codes/OrdCRTPwr/R/application"
 }

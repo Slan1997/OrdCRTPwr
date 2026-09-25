@@ -3,7 +3,7 @@ get_pi_from_coef <- function(coef, n_cat) {
   # coef = (gamma_1,...,gamma_{K-1}, beta_treat)
   # n_cat = total number of ordinal categories (K)
   
-  inv_logit <- function(x) 1 / (1 + exp(-x))
+  #inv_logit <- function(x) 1 / (1 + exp(-x)) # already defined in ordinal_probabilities.R
   
   K <- n_cat
   if (K < 3) stop("Need at least 3 categories.")

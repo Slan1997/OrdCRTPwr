@@ -23,7 +23,7 @@ nsim = 1e2
 epsilon_scale = 1; epsilon_sd=pi/sqrt(3)
 n_cat <- 3
 
-### use smaller number of clusters due to high computational cost
+### used smaller number of clusters due to high computational cost
 scenarios_for_super_pop_mini = read_csv("../../results/3cat/superpop/scenarios_for_superpop_3cat.csv") %>%
   mutate(number_clusters= rep(500,36),
          N = number_clusters*cluster_sizes,
